@@ -73,42 +73,6 @@ This project is licensed under the MIT License.
 
 > _“Preparedness is the best defense.”_
 
-📚 Lessons Learned
-
-- 🎯 Targeted service termination
-- 🕵️‍♂️ Stealthy execution with low noise
-- 🧨 Shadow copy deletion
-- 🧬 Source code leaks = copycat variants
-- 🧱 EDR bypass via legitimate tools
-
-
-✅ Security Checklist
-
-| Category         | Action Items                                                                 |
-|------------------|------------------------------------------------------------------------------|
-| 🔒 System Hygiene | Patch OS & apps, restrict PowerShell/WMIC                                   |
-| 🌐 Network        | Segment networks, monitor lateral movement                                  |
-| 🖥️ Endpoint       | Enable EDR/XDR with rollback, block known IOCs                              |
-| 👤 Identity       | Enforce MFA, rotate service credentials                                     |
-| 💾 Backups        | Maintain offline, immutable backups, test quarterly                         |
-| 📡 Monitoring     | Alert on shadow copy deletion, mass encryption, suspicious shares access    |
-
-
- 🧩 Playbook Structure
-
-🔍 Detection
-- YARA/Sigma rules for `.babuk` extensions
-- Monitor mutexes, process injection, registry drops
-
-🚨 Response
-- Isolate infected systems
-- Disable VPNs, preserve memory dumps
-- Notify stakeholders & law enforcement
-
-🔄 Recovery
-- Restore from offline backups
-- Rotate credentials
-- Conduct root cause analysis
 
 🧬 References
 1.https://attack.mitre.org/software/S0638/
