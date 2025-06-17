@@ -109,3 +109,8 @@ This project is licensed under the MIT License.
 - Restore from offline backups
 - Rotate credentials
 - Conduct root cause analysis
+
+🧬 References
+https://attack.mitre.org/software/S0638/
+https://www.acronis.com/en-sg/blog/posts/babuk-ransomware/
+https://www.rapid7.com/blog/post/2025/04/02/a-rebirth-of-a-cursed-existence-the-babuk-locker-2-0/
